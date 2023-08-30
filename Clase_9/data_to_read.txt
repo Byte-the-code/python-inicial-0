@@ -1,0 +1,4 @@
+nombre,edad,rol
+Juan,34,Developer
+Maria,28,Designer
+Pedro,30,Manager
