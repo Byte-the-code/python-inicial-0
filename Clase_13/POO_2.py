@@ -7,8 +7,10 @@ class Ram:
         self.memoria = memoria
 
     def __str__(self):
-        return f'Soy una ram de {self.memoria}'
+        return f'Soy una ram de {self.memoria}asdhasldashdjk'
 
+    def __repr__(self):
+        return f'Soy una ram de {self.memoria}'
 
 class PlacaVideo:
     def __init__(self, fabricante, marca, Vram):
@@ -85,7 +87,7 @@ mi_computadora = Computadora('plateado', 'Microsoft', mi_placa_madre, mi_placa_d
 # else:
 #     print('Acceso bloqueado')
 
-print(mi_computadora.hacer_render())
+print(mi_computadora.ram)
 
 
 
