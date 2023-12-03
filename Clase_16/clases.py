@@ -1,4 +1,3 @@
-print('<---------------------------------->\n\n\n')
 
 class Ram:
     def __init__(self, fabricante, marca, memoria):
@@ -11,6 +10,7 @@ class Ram:
 
     def __repr__(self):
         return f'Soy una ram de {self.memoria}'
+
 
 class PlacaVideo:
     def __init__(self, fabricante, marca, Vram):
@@ -69,26 +69,6 @@ class Computadora:
     def validar_contraseña(self, contraseña_a_validar):
         return self.__contraseña == contraseña_a_validar
 
-mi_placa_madre = PlacaMadre('Microsoft', 'EX227A')
-
-mi_placa_de_video = PlacaVideo('Nvidia', 'Nvidia GTX', '2GB')
-
-mi_ram_1 = Ram('Microsoft', 'XH772', 2)
-mi_ram_2 = Ram('Microsoft', 'XH772', 2)
-
-mi_computadora = Computadora('plateado', 'Microsoft', mi_placa_madre, mi_placa_de_video, [mi_ram_1, mi_ram_2], 'Segura 123')
 
 
-# contraseña = input('Por favor, ingrese su contraseña: ')
 
-
-# if mi_computadora.validar_contraseña(contraseña):
-#     print('Es la correcta')
-# else:
-#     print('Acceso bloqueado')
-
-print(mi_computadora.ram)
-
-test=123
-
-print('\n\n\n<---------------------------------->')
